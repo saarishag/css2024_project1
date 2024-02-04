@@ -14,7 +14,7 @@ Changing year column to datetime datatype
 """
 
 import pandas as pd
-df = pd.read_csv("C:/Users/saari/css2024_project01/movie_dataset.csv")
+df = pd.read_csv("movie_dataset.csv")
 
 df.rename(columns={"Runtime (Minutes)":"runtime_minutes"}, inplace = True)
 df.rename(columns={"Revenue (Millions)":"revenue_millions"}, inplace = True)
